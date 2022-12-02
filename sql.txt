@@ -1,0 +1,22 @@
+CREATE TABLE tb_manimaran_poovaragavan (
+
+id INT NOT NULL ,
+bike_name VARCHAR(150) NOT NULL,
+bike_company VARCHAR(150) NOT NULL,
+bike_cc TEXT(100) NOT NULL,
+tank_capacity TEXT (100) NOT NULL,
+vechile_type VARCHAR (150) NOT NULL,
+engine_type VARCHAR (150) NOT NULL,
+tyers VARCHAR (100) NOT NULL,
+bike_weight TEXT (100) NOT NULL,
+bike_price LONG NOT NULL,
+PRIMARY KEY (id)
+);tb_manimaran_poovaragavan
+
+INSERT INTO tb_manimaran_poovaragavan (id,bike_name,bike_company,bike_cc,tank_capacity,vechile_type,engine_type,tyers,bike_weight,bike_price)
+VALUE (1,'pulser','bajaj','150cc','15L','gear vechile','4 strock','tubeless','148 kg',150000)
+INSERT INTO tb_manimaran_poovaragavan (id,bike_name,bike_company,bike_cc,tank_capacity,vechile_type,engine_type,tyers,bike_weight,bike_price)
+VALUE (2,'apache','tvs','160cc','14L','gear vechile','4 strock','tubeless','142 kg',152000)
+
+UPDATE tb_manimaran_poovaragavan SET colors ='black' WHERE id = 2
+UPDATE tb_manimaran_poovaragavan SET colors ='red' WHERE bike_name = 'pulser'

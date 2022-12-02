@@ -1,0 +1,7 @@
+INSERT INTO tb_manimaran_poovaragavan (id,bike_name,bike_company,bike_cc,tank_capacity,vechile_type,engine_type,tyers,bike_weight,bike_price)
+
+VALUE (3,'sport','tvs','100cc','14L','gear vechile','4 strock','tube','135 kg',90000)
+
+
+ALTER TABLE tb_manimaran_poovaragavan
+DROP COLUMN tyers;
